@@ -159,20 +159,20 @@ body{
   padding-bottom:2% ;
   flex-direction: column;
 }
-h1 {
-  font-size: 50px;
-  color: #fff;
+h1, h2, h3, h4, h5 {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 0.7s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00ffe5, 0 0 40px #0686ff, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
   
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff5dae, 0 0 40px #08fff3, 0 0 50px #0385ff, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
 
@@ -183,7 +183,6 @@ h1 {
 body{
   background: white;
   color: blue;
-  text-transform: uppercase;
 }
 
 .footer-container{
